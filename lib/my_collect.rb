@@ -1,11 +1,11 @@
 def my_collect(arr)
-  
+  new = []
   i = 0 
   while i < arr.length 
-  arr[i]
+  yield(new << arr[i])
   i += 1
   end
-  yield(arr)
+  new
 end
 
 
