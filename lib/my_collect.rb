@@ -2,10 +2,10 @@ def my_collect(arr)
   new = []
   i = 0 
   while i < arr.length 
-  yield(new << arr[i])
+  yield(arr[i])
   i += 1
   end
-  new
+  
 end
 
 
